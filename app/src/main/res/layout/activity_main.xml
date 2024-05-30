@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8E0202"
+    android:outlineProvider="none"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Sign In"
+        android:textColor="#FFFCFC"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="340dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#F5B24A"
+        android:ems="10"
+        android:fontFamily="@font/cabin_semibold"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="¿Olvidaste la contraseña?"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/baseline_remove_red_eye_24"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="340dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#F5B24A"
+        android:ems="10"
+        android:fontFamily="@font/cabin_semibold"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="411dp"
+        android:layout_height="282dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        app:srcCompat="@drawable/PTC_Forma"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="184dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#8E0202"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Iniciar Sesión"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#F5B24A"
+        app:strokeWidth="2dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Registrate"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_italic"
+        android:text="¿No tienes cuenta?"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:width="288dp"
+        android:height="45dp"
+        android:backgroundTint="#E8D7D7"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Continuar con Google"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#FDFBFB"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="O"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#FDFBFB"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Terminos & Condiciones"
+        android:textColor="#7D7D7D"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="845dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="147dp"
+        android:backgroundTint="#F5B24A"
+        android:fontFamily="@font/cabin_bold"
+        android:shadowColor="#BFC1C7"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Modo bombero"
+        android:textColor="#000000"
+        app:cornerRadius="50dp"
+        app:strokeColor="#F0EB51"
+        app:strokeWidth="2dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="827dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
